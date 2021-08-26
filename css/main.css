@@ -366,8 +366,8 @@ footer .links-3 a:hover {
 
 footer .icon {
   border: 1px solid #fff;
-  width: 2rem;
-  height: 2rem;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   -webkit-transition: 350ms ease-in-out;
   transition: 350ms ease-in-out;
@@ -537,6 +537,9 @@ footer .icon:hover {
   }
   .container.bottom .title {
     font-size: 1.225rem;
+  }
+  .container.bottom .review {
+    min-width: 200px;
   }
   header .link:not(:last-child) {
     margin-right: 1rem;
