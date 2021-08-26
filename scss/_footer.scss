@@ -1,0 +1,54 @@
+footer {
+  .logo {
+    width: 165px;
+    cursor: pointer;
+    margin-bottom: 1.75rem;
+  }
+  width: 100%;
+  background-color: $VeryDarkBlue;
+  padding: 5.5rem 0 3rem;
+  a {
+    color: #fff;
+  }
+  .contact {
+    color: #fff;
+
+    .phone {
+      margin-bottom: 1rem;
+    }
+    .cont {
+      margin-right: 1rem;
+    }
+  }
+
+  .links-2 a,
+  .links-3 a {
+    display: block;
+    transition: 350ms ease-in-out;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    &:hover {
+      color: $BrightBlue;
+    }
+  }
+
+  .icon {
+    border: 1px solid #fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    transition: 350ms ease-in-out;
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+
+    &:hover {
+      color: $BrightBlue;
+      border-color: $BrightBlue;
+    }
+  }
+}

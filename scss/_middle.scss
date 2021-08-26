@@ -1,0 +1,55 @@
+.middle {
+  width: 100%;
+  padding: 6rem 0 5rem;
+  background-color: $DesaturatedBlue;
+
+  .content,
+  form {
+    width: 40%;
+  }
+
+  input {
+    border-radius: 4px;
+    font-size: 1rem;
+    display: block;
+  }
+
+  .email {
+    width: 90%;
+    padding: 0.75rem 1.5rem;
+    margin-right: 1rem;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 1rem;
+
+    &::placeholder {
+      color: $LightGray;
+    }
+  }
+
+  .submit {
+    padding: 0.75rem 2rem;
+    background-color: $BrightBlue;
+    border: 1px solid $BrightBlue;
+    color: #fff;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .content {
+    color: #fff;
+
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      line-height: 1.4;
+    }
+  }
+}

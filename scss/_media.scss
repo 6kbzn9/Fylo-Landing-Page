@@ -1,0 +1,200 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    &.top,
+    &.bottom {
+      .title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      .description {
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+      }
+    }
+    &.bottom .more {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .middle {
+    .content {
+      h3 {
+        font-size: 1.75rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  header {
+    padding: 2rem 0 4rem;
+  }
+  .container {
+    &.top,
+    &.bottom {
+      .description {
+        font-size: 1rem;
+      }
+    }
+    &.top {
+      input {
+        display: block;
+        width: 90%;
+
+        &.email {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    &.top,
+    &.bottom {
+      flex-direction: column;
+      width: clamp(300px, 90%, 700px);
+      .illus_wrapper,
+      .content {
+        width: 100%;
+      }
+      .illus_wrapper {
+        margin-bottom: 2.5rem;
+      }
+      .title,
+      .description {
+        margin-bottom: 2rem;
+      }
+    }
+
+    &.top {
+      text-align: center;
+      input {
+        margin: 0 auto;
+      }
+    }
+    &.bottom {
+      .title {
+        text-align: center;
+      }
+      .more {
+        position: relative;
+        margin: 0 auto 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .review {
+        width: 70%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .middle {
+    .container {
+      align-items: center;
+    }
+    .content,
+    form {
+      width: 48%;
+    }
+    form {
+      .email,
+      .submit {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 705px) {
+  .container {
+    &.bottom .review {
+      width: 85%;
+    }
+  }
+  .container,
+  .links {
+    display: block;
+  }
+  header {
+    .logo {
+      width: 100px;
+    }
+    padding-top: 1rem;
+    .container {
+      display: flex;
+    }
+    .link:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  .middle {
+    padding: 4.5rem 0;
+    .content {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    form {
+      width: 85%;
+      margin: 0 auto;
+      .email,
+      .submit {
+        width: 100%;
+      }
+    }
+  }
+
+  footer {
+    .contact,
+    .links-2,
+    .links-3 {
+      margin-bottom: 2.5rem;
+    }
+
+    .links-2 a,
+    .links-3 a {
+      margin-bottom: 1rem;
+    }
+    .links-icons {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    &.top {
+      .title {
+        font-size: 1.5rem;
+      }
+    }
+
+    &.bottom {
+      .title {
+        font-size: 1.225rem;
+      }
+    }
+  }
+
+  header {
+    .link:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+
+  .middle {
+    .content {
+      h3 {
+        font-size: 1.225rem;
+      }
+    }
+  }
+}
