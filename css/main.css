@@ -454,6 +454,7 @@ footer .icon:hover {
   }
   .container.bottom .review {
     width: 70%;
+    min-width: 200px;
     margin: 0 auto;
   }
   .middle .container {
@@ -473,7 +474,7 @@ footer .icon:hover {
 
 @media screen and (max-width: 705px) {
   .container.bottom .review {
-    width: 85%;
+    width: 92%;
   }
   .container,
   .links {
