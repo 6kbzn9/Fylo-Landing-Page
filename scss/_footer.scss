@@ -23,8 +23,8 @@ footer {
 
   .links-2 a,
   .links-3 a {
-    display: block;
-    transition: 350ms ease-in-out;
+    display: inline-block;
+    transition: 250ms ease-in-out;
 
     &:not(:last-child) {
       margin-bottom: 1rem;
@@ -39,7 +39,7 @@ footer {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    transition: 350ms ease-in-out;
+    transition: 250ms ease-in-out;
 
     &:not(:last-child) {
       margin-right: 1rem;

@@ -348,9 +348,9 @@ footer .contact .cont {
 
 footer .links-2 a,
 footer .links-3 a {
-  display: block;
-  -webkit-transition: 350ms ease-in-out;
-  transition: 350ms ease-in-out;
+  display: inline-block;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
 }
 
 footer .links-2 a:not(:last-child),
@@ -368,8 +368,8 @@ footer .icon {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  -webkit-transition: 350ms ease-in-out;
-  transition: 350ms ease-in-out;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
 }
 
 footer .icon:not(:last-child) {
