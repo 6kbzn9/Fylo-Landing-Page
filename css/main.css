@@ -5,7 +5,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
 }
 
 html {
@@ -366,8 +365,8 @@ footer .links-3 a:hover {
 
 footer .icon {
   border: 1px solid #fff;
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   -webkit-transition: 350ms ease-in-out;
   transition: 350ms ease-in-out;
@@ -531,7 +530,7 @@ footer .icon:hover {
 
 @media screen and (max-width: 490px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
   .container.top .title {
     font-size: 1.5rem;
