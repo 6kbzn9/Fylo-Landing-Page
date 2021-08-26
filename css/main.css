@@ -1,0 +1,166 @@
+header {
+  padding: 4rem 0;
+}
+
+header .logo {
+  width: 165px;
+  cursor: pointer;
+}
+
+header .link {
+  color: #070439;
+  padding: 0.75rem 0;
+}
+
+header .link:not(:last-child) {
+  margin-right: 3.45rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: clamp(300px, 90%, 1285px);
+  margin: 0 auto;
+}
+
+.title,
+.description {
+  color: #070439;
+  line-height: 1.3;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ai_c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jc_c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jc_sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container.top, .container.bottom {
+  margin-bottom: 8rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container.top .illus_wrapper,
+.container.top .content, .container.bottom .illus_wrapper,
+.container.bottom .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container.top .illustration, .container.bottom .illustration {
+  width: 100%;
+}
+
+.container.top .title, .container.bottom .title {
+  font-size: 2.325rem;
+  margin-bottom: 1.25rem;
+}
+
+.container.top .description, .container.bottom .description {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.top form {
+  width: 100%;
+}
+
+.top form input {
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.top form .email {
+  width: 55%;
+  padding: 0.75rem 1.5rem;
+  margin-right: 1rem;
+  border: 1px solid #070439;
+  background-color: transparent;
+}
+
+.top form .email::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+.top form .email:-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+.top form .email::-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+.top form .email::placeholder {
+  color: #bfbfbf;
+}
+
+.top form .submit {
+  width: 30%;
+  padding: 0.75rem 0;
+  background-color: #3065f8;
+  border: 1px solid #3065f8;
+  color: #fff;
+  cursor: pointer;
+}
+
+.top form .submit:hover {
+  opacity: 0.8;
+}
+
+.devider {
+  width: 100%;
+  height: 6rem;
+  background: url(../images/bg-curve-desktop.svg) center top no-repeat;
+  background-size: cover;
+}
+
+.bottom-container {
+  width: 100%;
+  background: #f6f6fe;
+}
+/*# sourceMappingURL=main.css.map */
